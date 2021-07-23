@@ -1,0 +1,6 @@
+a = input("Hi there!My name is Jarvis. What is your name?: ")
+print("Hello,", a + ".", "How are you doing?")
+input("")
+b = int(input("Great! Then tell me any number that comes to your mind: "))
+c = int(input("Tell me once again any number that comes to your mind: "))
+print(c + b)
