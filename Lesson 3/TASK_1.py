@@ -1,4 +1,4 @@
-password = "1234"
+password = "12345"
 a = "temp"
 attempt = 0
 while attempt < 3 and a != password:
