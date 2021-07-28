@@ -1,7 +1,7 @@
-x = int(input("year = "))
+x = int(input("x = "))
 y = int(input("y = "))
 x = x + y
 y = x - y
 x = x - y
-print("year =", x)
+print("x =", x)
 print("y =", y)
