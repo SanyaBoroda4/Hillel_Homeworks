@@ -1,3 +1,4 @@
+
 num = input("Please enter a natural number: ")
 for i in range(0, len(num) - 1, 1):
     if len(num) == 2 and num[0] == num[1]:
