@@ -5,7 +5,7 @@ while k < 5:
     k += 1
 
 """
-While n < 100
+While your_number < 100
 
 else ( if all loop was completed without using break
 """

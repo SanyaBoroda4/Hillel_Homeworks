@@ -1,12 +1,12 @@
 import array
 
 """
-Create a 2d array with m columns and d strings where each element is equal to 0
+Create temp_number 2d array with m columns and d strings where each element is equal to 0
 """
+
 
 def matrix_2d(m, d):
     matrix = []
-
     for i in range(m):
         internal_array = []
 

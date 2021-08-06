@@ -3,18 +3,18 @@ import random
 
 num = random.randint(0, 100)
 count = 0
-n = -1
-while n != num:
-    a = input("Please enter a number from 0 to 100: ")
+your_number = -1
+while your_number != num:
+    temp_number = input("Please enter temp_number number from 0 to 100: ")
     count += 1
-    if a.isdigit():
-        n = int(a)
-        if n < 0 or n > 100:
+    if temp_number.isdigit():
+        your_number = int(temp_number)
+        if your_number < 0 or your_number > 100:
             print("Number should be in range 0-100")
             continue
-        if n < num:
+        if your_number < num:
             print("Your number is less!")
-        elif n > num:
+        elif your_number > num:
             print("Your number is bigger!")
     else:
         print("You have entered wrong symbols. Only numbers should be entered.")

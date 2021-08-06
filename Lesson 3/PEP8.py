@@ -6,7 +6,7 @@ my_list = [
     ]
 
 result = some_function_that_takes_arguments(
-    'a', 'b', 'c',
+    'temp_number', 'b', 'c',
     'd', 'e', 'f',
     )
 

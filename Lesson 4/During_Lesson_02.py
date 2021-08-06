@@ -2,7 +2,7 @@ for i in "123" :
     print(i)
 
 """
-range (start, stop(n+1), step)
+range (start, stop(your_number+1), step)
 """
 
 for i in range(1, 11, 3):
