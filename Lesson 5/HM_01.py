@@ -14,6 +14,6 @@ if rows.isdigit():
             print(pyramide)
 
     else:
-        print("Restart the program and enter temp_number number within 3 - 9!")
+        print("Restart the program and enter number within 3 - 9!")
 else:
     print("Restart the program and enter temp_number NUMBER!")
