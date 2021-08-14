@@ -25,6 +25,7 @@ for item in text_to_list:
 print(max(my_dict, key=my_dict.get))
 
 """below I did sorting just for training"""
+
 sorted_dict = {}
 sorted_keys = sorted(my_dict, key=my_dict.get, reverse=True)
 
@@ -33,3 +34,7 @@ for w in sorted_keys:
 
 print(max(sorted_dict, key=sorted_dict.get))
 
+"""Another way of sorting"""
+
+for i in sorted(my_dict.items(), key=lambda para: para[1], reverse=True):
+    print(i)
