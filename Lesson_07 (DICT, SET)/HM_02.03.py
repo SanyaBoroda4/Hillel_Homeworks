@@ -32,8 +32,6 @@ sorted_keys = sorted(my_dict, key=my_dict.get, reverse=True)
 for w in sorted_keys:
     sorted_dict[w] = my_dict[w]
 
-print(max(sorted_dict, key=sorted_dict.get))
-
 """Another way of sorting"""
 
 for i in sorted(my_dict.items(), key=lambda para: para[1], reverse=True):
