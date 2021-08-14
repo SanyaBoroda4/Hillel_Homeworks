@@ -15,4 +15,4 @@ for i in text_to_list:
 print(my_dict)
 
 result = Counter(my_dict.values())
-print(result)
+print(dict(result))
