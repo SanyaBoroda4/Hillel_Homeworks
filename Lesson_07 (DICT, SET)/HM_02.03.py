@@ -1,6 +1,3 @@
-import operator
-
-
 your_text = """
 The former seems to be much the more important; 
 for nearly similar variations sometimes arise under, 
