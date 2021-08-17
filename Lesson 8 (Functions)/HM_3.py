@@ -9,3 +9,4 @@ def num_generator(x, y):
 
 for j in num_generator(1, 10):
     print(j, end=" ")
+
