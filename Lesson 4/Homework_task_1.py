@@ -1,4 +1,4 @@
-num_01 = input("Enter temp_number natural number: ")
+num_01 = input("Enter a natural number: ")
 
 for i in num_01:
     if num_01.count(i) > 1:
