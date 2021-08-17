@@ -2,8 +2,10 @@ import random
 
 
 def num_generator(x, y):
-    return random.randint(x, y)
+    for i in range(1, 100):
+        z = random.randint(x, y)
+        yield z
 
 
-for i in range(1, 100):
-    print(num_generator(1, 10), end=" ")
+for j in num_generator(1, 10):
+    print(j, end=" ")
